@@ -1,197 +1,153 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PJ Helicopters Email Signature Generator</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 24px; max-width: 900px; }
+    label { display:block; margin: 14px 0 6px; font-weight: bold; }
+    input { width: 100%; padding: 10px; font-size: 14px; box-sizing: border-box; }
+    .btns { margin-top: 14px; display:flex; gap:10px; flex-wrap:wrap; }
+    button { padding: 10px 14px; font-size: 14px; cursor:pointer; }
+    textarea { width: 100%; height: 240px; margin-top: 10px; padding: 12px; font-family: Consolas, Menlo, monospace; font-size: 12px; box-sizing: border-box; }
+    .grid { display:grid; grid-template-columns: 1fr; gap: 18px; }
+    .card { border:1px solid #ddd; padding:14px; }
+    .small { font-size: 12px; color:#666; }
+    iframe { width:100%; height:220px; border:1px solid #ddd; background:#fff; }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!doctype html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;PJ Helicopters Email Signature Generator&lt;/title&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, Helvetica, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 24px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 800px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>label {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 14px 0 6px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>input {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>button {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 10px 16px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 14px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>textarea {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>height: 260px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: Consolas, Menlo, monospace;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-sizing: border-box;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.preview {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 14px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: 1px solid #ddd;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.small {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 12px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: #666;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;PJ Helicopters Email Signature Generator&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="small"&gt;Enter your information, click Generate, then copy the HTML into your email signature settings.&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;label for="name"&gt;Name&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;input id="name" placeholder="e.g., Michael Stark" /&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;label for="title"&gt;Position / Title&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;input id="title" placeholder="e.g., Marketing Manager" /&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;label for="phone"&gt;Direct Phone&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;input id="phone" placeholder="e.g., 530-527-5059" /&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;button onclick="generateSignature()"&gt;Generate &amp; Copy HTML&lt;/button&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;Signature HTML&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;textarea id="output" spellcheck="false"&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="preview"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="small"&gt;&lt;b&gt;Preview&lt;/b&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="preview" style="margin-top:10px;"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>/* ======================</p>
-<p class="p1"><span class="Apple-converted-space">     </span>HARD-CODED SETTINGS</p>
-<p class="p1"><span class="Apple-converted-space">     </span>====================== */</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const LOGO_URL = "https://www.pjhelicopters.com/wp-content/uploads/2023/06/pjheli_logo-1.png";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const LOGO_WIDTH = 160;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const NAME_COLOR = "#c35a1e";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const ADDRESS = "903 Langley Way, Red Bluff, CA 96080";</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>const DISPATCH_LABEL = "24/7 Dispatch:";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const DISPATCH_DISPLAY = "800.582.2840";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const DISPATCH_TEL = "18005822840";</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>const PJ_URL = "https://www.pjhelicopters.com";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>const QUANTA_URL = "https://www.quantaservices.com";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>/* ====================== */</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>function escapeHtml(str) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>return String(str || "")</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.replaceAll("&amp;", "&amp;amp;")</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.replaceAll("&lt;", "&amp;lt;")</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.replaceAll("&gt;", "&amp;gt;")</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.replaceAll('"', "&amp;quot;")</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.replaceAll("'", "&amp;#039;");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>function formatPhoneDisplay(str) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const digits = String(str || "").replace(/[^\d]/g, "");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if (digits.length !== 10) return str;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>return digits.slice(0,3) + "." + digits.slice(3,6) + "." + digits.slice(6);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>function phoneToTel(str) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const digits = String(str || "").replace(/[^\d]/g, "");</p>
-<p class="p1"><span class="Apple-converted-space">    </span>if (digits.length === 10) return "1" + digits;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>return digits;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>function generateSignature() {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const name = escapeHtml(document.getElementById("name").value.trim());</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const title = escapeHtml(document.getElementById("title").value.trim());</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const rawPhone = document.getElementById("phone").value.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>if (!name || !title || !rawPhone) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>alert("Please fill in all fields.");</p>
-<p class="p1"><span class="Apple-converted-space">      </span>return;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>const phoneDisplay = escapeHtml(formatPhoneDisplay(rawPhone));</p>
-<p class="p1"><span class="Apple-converted-space">    </span>const phoneTel = phoneToTel(rawPhone);</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>const html = `</p>
-<p class="p1">&lt;table cellpadding="0" cellspacing="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;tr&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;td style="vertical-align: top;"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="margin-bottom: 6px;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="${LOGO_URL}" alt="PJ Helicopters" width="${LOGO_WIDTH}" style="display:block; border:0;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="font-size: 15px; font-weight: bold; color: ${NAME_COLOR};"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>${name}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="font-size: 13px; font-weight: bold; margin-top: 2px;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>${title}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="margin-top: 8px; line-height: 1.4;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="tel:${phoneTel}" style="color:#000; text-decoration:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>${phoneDisplay}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&amp;nbsp;|&amp;nbsp;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;strong&gt;${DISPATCH_LABEL}&lt;/strong&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="tel:${DISPATCH_TEL}" style="color:#000; text-decoration:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>${DISPATCH_DISPLAY}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="margin-top: 4px;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>${ADDRESS}</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="margin-top: 6px; font-size: 11px;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="${PJ_URL}" style="color:#777; text-decoration:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>PJ Helicopters</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&amp;nbsp;·&amp;nbsp;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="${QUANTA_URL}" style="color:#777; text-decoration:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>A Quanta Services Company</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/td&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/tr&gt;</p>
-<p class="p1">&lt;/table&gt;`.trim();</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("output").value = html;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("preview").innerHTML = html;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>navigator.clipboard.writeText(html);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <h2>PJ Helicopters Email Signature Generator</h2>
+  <p class="small">Fill the three fields, click <b>Generate</b>, then copy the HTML into your email signature settings.</p>
+
+  <label for="name">Name</label>
+  <input id="name" placeholder="e.g., Michael Stark" />
+
+  <label for="title">Position / Title</label>
+  <input id="title" placeholder="e.g., Marketing Manager" />
+
+  <label for="phone">Direct Phone</label>
+  <input id="phone" placeholder="e.g., 530-527-5059" />
+
+  <div class="btns">
+    <button id="generateBtn" type="button">Generate</button>
+    <button id="copyBtn" type="button">Copy HTML</button>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="small"><b>Signature HTML (copy/paste)</b></div>
+      <textarea id="output" spellcheck="false"></textarea>
+    </div>
+
+    <div class="card">
+      <div class="small"><b>Preview</b></div>
+      <iframe id="previewFrame" title="Signature Preview"></iframe>
+    </div>
+  </div>
+
+<script>
+  /* ======================
+     HARD-CODED SETTINGS
+     ====================== */
+  const LOGO_URL = "https://www.pjhelicopters.com/wp-content/uploads/2023/06/pjheli_logo-1.png";
+  const LOGO_WIDTH = 160;
+  const NAME_COLOR = "#c35a1e";
+  const ADDRESS = "903 Langley Way, Red Bluff, CA 96080";
+
+  const DISPATCH_LABEL = "24/7 Dispatch:";
+  const DISPATCH_DISPLAY = "800.582.2840";
+  const DISPATCH_TEL = "18005822840";
+
+  const PJ_URL = "https://www.pjhelicopters.com";
+  const QUANTA_URL = "https://www.quantaservices.com";
+  /* ====================== */
+
+  const $ = (id) => document.getElementById(id);
+
+  function escapeHtml(str) {
+    return String(str || "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function formatPhoneDisplay(str) {
+    const digits = String(str || "").replace(/[^\d]/g, "");
+    if (digits.length !== 10) return str; // fallback if not 10 digits yet
+    return `${digits.slice(0,3)}.${digits.slice(3,6)}.${digits.slice(6)}`;
+  }
+
+  function phoneToTel(str) {
+    const digits = String(str || "").replace(/[^\d]/g, "");
+    if (!digits) return "";
+    if (digits.length === 10) return "1" + digits;
+    return digits; // if user enters 11+ digits
+  }
+
+  function buildSignatureHTML({ name, title, phoneDisplay, phoneTel }) {
+    return `
+<table cellpadding="0" cellspacing="0" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000;">
+  <tr>
+    <td style="vertical-align: top;">
+
+      <div style="margin-bottom: 6px;">
+        <img src="${LOGO_URL}" alt="PJ Helicopters" width="${LOGO_WIDTH}" style="display:block; border:0;">
+      </div>
+
+      <div style="font-size: 15px; font-weight: bold; color: ${NAME_COLOR};">
+        ${name}
+      </div>
+
+      <div style="font-size: 13px; font-weight: bold; margin-top: 2px;">
+        ${title}
+      </div>
+
+      <div style="margin-top: 8px; line-height: 1.4;">
+        <a href="tel:${phoneTel}" style="color:#000; text-decoration:none;">
+          ${phoneDisplay}
+        </a>
+        &nbsp;|&nbsp;
+        <strong>${DISPATCH_LABEL}</strong>
+        <a href="tel:${DISPATCH_TEL}" style="color:#000; text-decoration:none;">
+          ${DISPATCH_DISPLAY}
+        </a>
+      </div>
+
+      <div style="margin-top: 4px;">
+        ${ADDRESS}
+      </div>
+
+      <div style="margin-top: 6px; font-size: 11px;">
+        <a href="${PJ_URL}" style="color:#777; text-decoration:none;">
+          PJ Helicopters
+        </a>
+        &nbsp;·&nbsp;
+        <a href="${QUANTA_URL}" style="color:#777; text-decoration:none;">
+          A Quanta Services Company
+        </a>
+      </div>
+
+    </td>
+  </tr>
+</table>`.trim();
+  }
+
+  function renderPreview(signatureHtml) {
+    const doc = `
+<!doctype html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="margin:12px; background:#fff;">
+${signatureHtml}
 </body>
-</html>
+</html>`;
+    const frame = $("previewFrame");
+    frame.srcdoc = doc;
+  }
+
+  function generate() {
+    const nameRaw = $("name").value.trim()
